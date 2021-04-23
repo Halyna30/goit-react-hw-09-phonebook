@@ -1,0 +1,11 @@
+@import '../../styles/distributes.scss';
+
+.form {
+  @extend %form;
+  margin: 0 auto;
+  width: 320px;
+}
+
+.label {
+  @extend %label;
+}

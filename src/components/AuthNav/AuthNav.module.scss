@@ -1,0 +1,14 @@
+@import '../../styles/distributes.scss';
+
+.userMenu {
+  @extend %list;
+  display: flex;
+  font-weight: 500;
+}
+
+.link {
+  @extend %link;
+}
+.activeLink {
+  color: #e84a5f;
+}

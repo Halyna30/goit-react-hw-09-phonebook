@@ -1,0 +1,8 @@
+@import '../../styles/distributes.scss';
+
+.header {
+  background-color: blue($color: #000000);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

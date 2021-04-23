@@ -1,0 +1,12 @@
+@import '../../styles/distributes.scss';
+
+.list {
+  @extend %list;
+  display: flex;
+}
+.link {
+  @extend %link;
+}
+.activeLink {
+  color: #e84a5f;
+}
